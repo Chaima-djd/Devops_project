@@ -9,5 +9,5 @@
 - Résolution manuelle des conflits dans VS Code.
 
 ### Preuves du fonctionnement
-- Capture d'écran de la pipeline réussie : ![pipeline](screenshots/pipeline.png)
+- Capture d'écran de la pipeline réussie : ![pipeline](./screenshots/pipeline.png)
 - Logs : ![logs]()
