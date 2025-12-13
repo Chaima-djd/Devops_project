@@ -31,4 +31,5 @@ https://github.com/Chaima-djd/Devops_project
 
 ## 6. Preuves du fonctionnement
 - Pipeline CI/CD réussie : 
-![pipeline](./screenshots/pipeline.png)
+![pipeline](<img width="724" height="265" alt="pepline " src="https://github.com/user-attachments/assets/41ad5bbc-3c17-48da-a940-7ff4ff5ac3c6" />
+)
