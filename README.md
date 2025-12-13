@@ -1,5 +1,10 @@
 # Devops_project ## Rapport 
 
+## équipe du projet :
+- DJELLOUL DAOUD Chaima (@chaima-djd)
+- HAMEDI Chaima (@chaimaa-hmd)
+- IDHAMIDA Nour el houda (@nour-idhmida)
+
 ## 1. Lien du dépôt
 https://github.com/Chaima-djd/Devops_project
 
