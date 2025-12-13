@@ -1,0 +1,32 @@
+name: CI-CD Pipeline Minimal
+
+on:
+  push:
+    branches:
+      - hmdch  
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout du repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2️⃣ Construire l'image Docker
+      - name: Build Docker image
+        run: docker build -t my-html-site:latest .
+
+      # 3️⃣ Tester que l'image fonctionne (optionnel)
+      - name: Run Docker container test
+        run: |
+          docker run -d -p 8080:80 --name test-container my-html-site:latest
+          sleep 5
+          curl -f http://localhost:8080 || exit 1
+          docker stop test-container
+          docker rm test-container
+
+      # 4️⃣ Info : Docker login / push skipped
+      - name: Skip Docker push
+        run: echo "Docker push skipped because secrets are not available."
