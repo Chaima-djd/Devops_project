@@ -3,7 +3,7 @@ name: CI-CD Pipeline Minimal
 on:
   push:
     branches:
-      - hmdch  
+      - "*"  
 
 jobs:
   build-and-test:
