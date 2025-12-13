@@ -1,3 +1,6 @@
+
+# Devops_project
+ NourIdhmida
 # Devops_project ## Rapport 
 
 ### Difficultés rencontrées
@@ -11,3 +14,6 @@
 ### Preuves du fonctionnement
 - Pipeline CI/CD réussie : 
 ![pipeline](./screenshots/pipeline.png)
+HEAD
+ 0e52211 (update readme)
+NourIdhmida
