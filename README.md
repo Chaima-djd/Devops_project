@@ -37,3 +37,10 @@ https://github.com/Chaima-djd/Devops_project
 ## 6. Preuves du fonctionnement
 - Pipeline CI/CD réussie : 
 ![pipeline](./screenshots/pipeline.png)
+- Learn Devops web site sur localhost:8080:
+![Accueil](./screenshot/learnDevops_acceuil.png)
+![Tools](./screenshot/tools1.png)
+![Tools](./screenshot/tools2.png)
+![Tools](./screenshot/tools3.png)
+
+  
