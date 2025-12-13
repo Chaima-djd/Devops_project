@@ -3,93 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet DevOps Simple</title>
+    <title>Introduction à DevOps</title>
     <style>
-        /* Style global */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #f5f6fa;
+            color: #2f3640;
         }
 
-        /* Header */
         header {
-            background-color: #4CAF50;
+            background-color: #40739e;
             color: white;
+            padding: 20px;
             text-align: center;
-            padding: 2rem 1rem;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2rem;
         }
 
-        header p {
-            margin: 0.5rem 0 0 0;
-        }
-
-        /* Main */
         main {
-            padding: 2rem;
-        }
-
-        .features {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .feature {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
             background-color: white;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            padding: 1.5rem;
-            width: 250px;
-            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        .feature h2 {
-            color: #4CAF50;
+        section {
+            margin-bottom: 30px;
         }
 
-        /* Footer */
+        h2 {
+            color: #40739e;
+            border-bottom: 2px solid #40739e;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: #dcdde1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        a {
+            color: #40739e;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         footer {
-            background-color: #333;
-            color: white;
             text-align: center;
-            padding: 1rem;
+            padding: 15px;
+            background-color: #40739e;
+            color: white;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon projet DevOps</h1>
-        <p>Un petit projet HTML/CSS pour tester le déploiement</p>
+        <h1>Introduction à DevOps</h1>
     </header>
 
     <main>
-        <section class="features">
-            <div class="feature">
-                <h2>Intégration continue</h2>
-                <p>Automatisez vos builds et tests avec CI/CD.</p>
-            </div>
-            <div class="feature">
-                <h2>Déploiement continu</h2>
-                <p>Déployez automatiquement vos applications sur un serveur.</p>
-            </div>
-            <div class="feature">
-                <h2>Monitoring</h2>
-                <p>Surveillez vos applications pour garantir leur disponibilité.</p>
-            </div>
+        <section>
+            <h2>Définition</h2>
+            <p>
+                DevOps est une approche qui combine le développement logiciel (Dev) et les opérations informatiques (Ops) pour livrer des applications plus rapidement et de manière fiable, en automatisant les processus et en favorisant la collaboration entre les équipes.
+            </p>
+        </section>
+
+        <section>
+            <h2>Objectifs</h2>
+            <ul>
+                <li>Livraison rapide et continue des applications</li>
+                <li>Améliorer la qualité et la fiabilité du logiciel</li>
+                <li>Automatiser le déploiement et les tests</li>
+                <li>Favoriser la collaboration entre développeurs et équipes opérationnelles</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>À propos</h2>
+            <p>
+                DevOps n'est pas seulement des outils, c'est une culture qui encourage la communication et la collaboration. Elle permet de réduire les erreurs humaines, d'augmenter la vitesse de déploiement et d'assurer une meilleure expérience utilisateur.
+            </p>
+        </section>
+
+        <section>
+            <h2>Outils et Logiciels</h2>
+            <ul>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git Logo">
+                    <strong>Git / GitHub :</strong> <a href="https://github.com" target="_blank">github.com</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab Logo">
+                    <strong>GitLab :</strong> <a href="https://gitlab.com" target="_blank">gitlab.com</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins Logo">
+                    <strong>Jenkins :</strong> <a href="https://www.jenkins.io" target="_blank">jenkins.io</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Logo">
+                    <strong>Docker :</strong> <a href="https://www.docker.com" target="_blank">docker.com</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes Logo">
+                    <strong>Kubernetes :</strong> <a href="https://kubernetes.io" target="_blank">kubernetes.io</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform Logo">
+                    <strong>Terraform :</strong> <a href="https://www.terraform.io" target="_blank">terraform.io</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible Logo">
+                    <strong>Ansible :</strong> <a href="https://www.ansible.com" target="_blank">ansible.com</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana Logo">
+                    <strong>Grafana :</strong> <a href="https://grafana.com" target="_blank">grafana.com</a>
+                </li>
+                <li>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus Logo">
+                    <strong>Prometheus :</strong> <a href="https://prometheus.io" target="_blank">prometheus.io</a>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Projet DevOps Simple</p>
+        &copy; 2025 DevOps Intro
     </footer>
 </body>
 </html>
